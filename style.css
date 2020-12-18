@@ -1,0 +1,176 @@
+html {
+    scroll-behavior   : smooth;
+}
+.btn {
+    box-shadow        : 1px 2px 3px rgba(0, 0, 0, 0.685);
+}
+.home,
+.peta {
+    text-shadow       : 1px 2px 3px rgba(0, 0, 0, 0.685);
+}
+.bgred,
+nav {
+    background-color  : #B00020;
+}
+.bgred {
+    border-radius     : 5px;
+}
+.putih {
+    color             : white;
+}
+.red {
+    color             : #B00020;
+}
+.judul {
+    font-size         : x-large;
+    font-family       : Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.card {
+    margin-top        : 10px;
+    color             : #B00020;
+}
+
+.shadow-drop-bottom {
+    -webkit-animation : shadow-drop-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation         : shadow-drop-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes shadow-drop-bottom {
+    0% {
+        box-shadow    : 0 0 0 0 transparent;
+    }
+    100% {
+        box-shadow    : 0 12px 20px -12px rgba(0,0,0,.35);
+    }
+}
+.shadow-drop-top {
+    animation         : shadow-drop-top 0.4s cubic-bezier(.25,.46,.45,.94) both;
+}
+@keyframes shadow-drop-top {
+    0% {
+        box-shadow    : 0 0 0 0 transparent;
+    }
+    100% {
+        box-shadow    : 0 -12px 20px -12px rgba(0,0,0,.35);
+    }
+}
+iframe {
+    box-shadow        : 1px 2px 4px black;
+}
+.tengah {
+    margin            : 65px auto;
+}
+.awal {
+    height            : 500px;
+    background-image  : url("image/191549.jpg");
+    background-size   : cover;
+}
+.gue {
+    font-size         : 50px;
+    text-align        : center;
+    margin            : 100px auto;
+    text-shadow       : 2px 3px 6px white;
+}
+
+.icon {
+    width             : 20px;
+}
+
+.input-group-text {
+    background-color  : white;
+}
+
+.form-control {
+    border-left       : none;
+    background-color  : white;
+    color             : white;
+    font-size         : small;
+}
+
+fieldset {
+    margin            : 100px auto;
+    padding           : 30px;
+    border-radius     : 10px;
+    background-color  : white;
+    background-color  : rgb(1, 16, 63);
+}
+
+legend {
+    background-image  : url("image/pp.jpeg");
+    background-size   : cover;
+    text-align        : center;
+    width             : 100px;
+    height            : 100px;
+    border-radius     : 50%;
+    border-style      : solid;
+    border-color      :#B00020;
+}
+
+.input-group-text {
+    border-radius     : 5px;
+    border            : none;
+}
+
+.wa {
+    background-color  : rgb(5, 121, 5);
+    color             : white;
+}
+
+.fb {
+    background-color  : rgb(11, 11, 145);
+}
+
+.twit {
+    background-color  : rgb(27, 98, 131);
+}
+
+.github {
+    background-color  : rgb(102, 60, 170);
+}
+
+.ig {
+    background-color  : rgb(145, 35, 81);
+}
+
+.yt {
+    background-color  : rgb(92, 12, 12);
+}
+
+h6 {
+    color             : black;
+    text-align        : center;
+    color             : rgb(1, 16, 63);
+}
+
+.maps {
+    height            : 100px;
+    border            : none;
+}
+.box {
+    box-shadow        : 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+    min-height        : 200px;
+    width             : 40%;
+    margin            : 50px auto;
+    background        : white;
+    border-radius     : 5px;
+}
+@media screen and (max-width: 728px) {
+    fieldset {
+        width         : 80%;
+        margin        : 50px auto;
+        padding       : 5px;
+        border-radius : 5px;
+    }
+    .box {
+        box-shadow    : 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+
+        width         : 80%;
+        margin        : 50px auto;
+        background    : white;
+        border-radius : 5px;
+    }
+
+}
+
+body {
+    background        : #EEF2F7;
+}
